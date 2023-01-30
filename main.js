@@ -15,7 +15,6 @@ function cervenyPoKliknuti() {
 }
 
 // po kliknutí zvětší velikost písma v odstavci o jeden px
-
 function vetsiPoKliknuti() { 
     let id = document.getElementById("odstavec");
     style = window.getComputedStyle(id, null).getPropertyValue("font-size");
